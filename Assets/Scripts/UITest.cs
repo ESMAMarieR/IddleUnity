@@ -12,7 +12,7 @@ public class UITest : MonoBehaviour
 
 
     float hp;
-    public float hpMax =100;
+    public float hpMax =100000;
 
 
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class UITest : MonoBehaviour
 
     private IEnumerator GetDammage()
     {
-        while (hp>0)
+        while (hp<0)
         {
 
             hp --;
