@@ -19,7 +19,7 @@ public class ClikerFish : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "Poisson " + score;
+        scoreText.text = score + " Poisson ";
     }
     // Start is called before the first frame update
     void Start()
